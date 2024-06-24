@@ -1,0 +1,272 @@
+{
+    "data": [
+      {
+        "status": "ok",
+        "totalResults": 156287,
+        "searchTerm": "twitter",
+        "articles": [
+          {
+            "source": {
+              "id": "wired",
+              "name": "Wired"
+            },
+            "author": "Chris Stokel-Walker",
+            "title": "How Elon Musk Won Twitter",
+            "description": "His weeks-long pursuit of the company has resulted in a $44 billion deal. But how did it happen, and what the hell comes next?",
+            "url": "https://www.wired.com/story/elon-musk-buys-twitter-deal/",
+            "urlToImage": "https://media.wired.com/photos/6266f8d9f2e5a2b3f2ddf24f/191:100/w_1280,c_limit/Elon_twitter_musk_GettyImages-1233956115.jpg",
+            "publishedAt": "2022-04-25T19:41:32Z",
+            "content": "Such social media battles may be unusual when considering a takeover of a massive business, but Musk is himself unusual, says Cary Cooper, a business professor at Manchester Business School. Hes not … [+4004 chars]"
+          },
+          {
+            "source": {
+              "id": "engadget",
+              "name": "Engadget"
+            },
+            "author": "Andrew Tarantola",
+            "title": "How messy might Twitter get under Musk",
+            "description": "Tesla and SpaceX CEO Elon Musk added Twitter to his stable of companies on Monday, purchasing the social media platform for $44 billion dollars. Whether he made this purchase to finally realize his aspirations as a \"free speech absolutist\" or just did it to p…",
+            "url": "https://www.engadget.com/how-messy-might-twitter-get-under-musk-002717320.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-04/38578160-c4e0-11ec-bdff-5e1a260e3f6d",
+            "publishedAt": "2022-04-26T00:27:17Z",
+            "content": "Tesla and SpaceX CEO Elon Musk added Twitter to his stable of companies on Monday, purchasing the social media platform for $44 billion dollars. Whether he made this purchase to finally realize his a… [+8879 chars]"
+          },
+          {
+            "source": {
+              "id": "wired",
+              "name": "Wired"
+            },
+            "author": "Gian M. Volpicelli",
+            "title": "What Twitter Is Really Planning for Crypto",
+            "description": "The duo behind Twitter Crypto say NFT profile pics and crypto tipping are just the beginning.",
+            "url": "https://www.wired.com/story/twitter-crypto-strategy/",
+            "urlToImage": "https://media.wired.com/photos/624b7db8c736857145d140ef/191:100/w_1280,c_limit/twitter-crypto-1192300351.jpg",
+            "publishedAt": "2022-04-05T11:00:00Z",
+            "content": "You might have heard of crypto Twitter, the corner of the social network where accounts have Bored Apes as profile pictures, posts are rife with talk of tokens, blockchains, and buying the Bitcoin di… [+3133 chars]"
+          },
+          {
+            "source": {
+              "id": "wired",
+              "name": "Wired"
+            },
+            "author": "Gilad Edelman",
+            "title": "Elon Musk Is Right About Twitter",
+            "description": "It really is the closest thing we have to an online public square—and that's terrible for democracy. Let his takeover bid be a wakeup call.",
+            "url": "https://www.wired.com/story/elon-musk-right-about-twitter/",
+            "urlToImage": "https://media.wired.com/photos/62584dcfa7f86087873e109a/191:100/w_1280,c_limit/Twitter_Elon_Biz_GettyImages-1229901929.jpg",
+            "publishedAt": "2022-04-14T21:17:51Z",
+            "content": "The saga of Elon Musk attempting to take over Twitter began, appropriately, on Twitter. In late March, Musk tweeted, Given that Twitter serves as the de facto public town square, failing to adhere to… [+3238 chars]"
+          },
+          {
+            "source": {
+              "id": "engadget",
+              "name": "Engadget"
+            },
+            "author": "Karissa Bell",
+            "title": "Twitter confirms it will test an edit button",
+            "description": "More than a decade and a half into its existence, Twitter has confirmed what was once unthinkable: an edit button is on the way. The company confirmed as much Tuesday, saying that it's been \"been working on an edit feature since last year.\" The company was li…",
+            "url": "https://www.engadget.com/twitter-confirms-edit-button-214459796.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-04/a3e7cec0-b528-11ec-bffd-277289e374cf",
+            "publishedAt": "2022-04-05T21:44:59Z",
+            "content": "More than a decade and a half into its existence, Twitter has confirmed what was once unthinkable: an edit button is on the way. The company confirmed as much Tuesday, saying that it's been \"been wor… [+200 chars]"
+          },
+          {
+            "source": {
+              "id": "engadget",
+              "name": "Engadget"
+            },
+            "author": "Steve Dent",
+            "title": "TweetDeck may become a paid Twitter Blue option",
+            "description": "TweetDeck — a version of Twitter beloved by journalists, social media pros and other power users — might soon become a paid app, The Verge has reported. A new version of the app redirects to the Twitter Blue subscription signup page, according to code discove…",
+            "url": "https://www.engadget.com/tweet-deck-may-become-a-paid-twitter-blue-feature-code-shows-094502501.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-01/602660f0-6fe3-11ec-aff7-6b39b1a526bc",
+            "publishedAt": "2022-03-31T09:45:02Z",
+            "content": "TweetDeck a version of Twitter beloved by journalists, social media pros and other power users might soon become a paid app, The Verge has reported. A new version of the app redirects to the Twitter … [+2079 chars]"
+          },
+          {
+            "source": {
+              "id": "engadget",
+              "name": "Engadget"
+            },
+            "author": "Steve Dent",
+            "title": "Elon Musk now owns a 9.2 percent stake in Twitter",
+            "description": "Tesla and SpaceX CEO Elon Musk now owns 9.2 percent of Twitter after purchasing $2.89 billion in stock, according to a US Securities and Exchange Commission (SEC) filing spotted by CNBC. The purchase follows recent criticism by Musk over the social media site…",
+            "url": "https://www.engadget.com/elon-musk-now-owns-92-percent-of-twitter-113623921.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-02/d79845b0-8e63-11ec-9bfe-4c0ee6be58a3",
+            "publishedAt": "2022-04-04T11:36:23Z",
+            "content": "Tesla and SpaceX CEO Elon Musk now owns 9.2 percent of Twitter after purchasing $2.89 billion in stock, according to a US Securities and Exchange Commission (SEC) filing spotted by CNBC. The purchase… [+1422 chars]"
+          },
+          {
+            "source": {
+              "id": "engadget",
+              "name": "Engadget"
+            },
+            "author": "Steve Dent",
+            "title": "Elon Musk offers to buy Twitter for $43 billion",
+            "description": "Elon Musk has offered to buy Twitter for $43 billion, telling the SEC in a filing that the deal would be good for free speech. \"I invested in Twitter as I believe in its potential to be the platform for free speech around the globe, and I believe free speech …",
+            "url": "https://www.engadget.com/elon-musk-offers-to-buy-twitter-for-43-billion-104642696.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-04/fc71a490-bbdf-11ec-9fee-b860ecfeae09",
+            "publishedAt": "2022-04-14T10:46:42Z",
+            "content": "Elon Musk has offered to buy Twitter for $43 billion, telling the SEC in a filing that the deal would be good for free speech. \"I invested in Twitter as I believe in its potential to be the platform … [+1375 chars]"
+          },
+          {
+            "source": {
+              "id": "engadget",
+              "name": "Engadget"
+            },
+            "author": "Jon Fingas",
+            "title": "Twitter is experimenting with a status update feature",
+            "description": "Twitter might soon take a page from Instagram's defunct Threads app — not to mention other messaging apps you used in the past two decades. As The Vergereports, code sleuth Jane Manchun Wong has discovered that Twitter is developing a \"Vibe\" feature that woul…",
+            "url": "https://www.engadget.com/twitter-vibe-status-feature-leak-163014924.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-02/204cb6d0-8502-11ec-a37f-9034b7f2adf6",
+            "publishedAt": "2022-04-22T16:30:14Z",
+            "content": "Twitter might soon take a page from Instagram's defunct Threads app not to mention other messaging apps you used in the past two decades. As The Vergereports, code sleuth Jane Manchun Wong has discov… [+1387 chars]"
+          },
+          {
+            "source": {
+              "id": "wired",
+              "name": "Wired"
+            },
+            "author": "Will Knight",
+            "title": "Musk’s Plan to Reveal the Twitter Algorithm Won’t Solve Anything",
+            "description": "Simply uploading code won't explain the platform's inner workings—and it could introduce more serious issues.",
+            "url": "https://www.wired.com/story/twitter-open-algorithm-problem/",
+            "urlToImage": "https://media.wired.com/photos/62687b98cfc157274bd1cb4b/191:100/w_1280,c_limit/Binary-Code-Open-Source-Twitter-Business-1372011694.jpg",
+            "publishedAt": "2022-04-27T18:32:36Z",
+            "content": "In this age of machine learning, it isnt the algorithms, its the data, says David Karger, a professor and computer scientist at MIT. Karger says Musk could improve Twitter by making the platform more… [+3283 chars]"
+          },
+          {
+            "source": {
+              "id": "the-verge",
+              "name": "The Verge"
+            },
+            "author": "Jon Porter",
+            "title": "Twitter tries harder to promote third-party safety tools",
+            "description": "Twitter has launched a new limited experiment that will see it promote developers’ third-party Twitter tools natively on its service. Select users will see safety tools promoted with a new prompt when they mute or block another account.",
+            "url": "https://www.theverge.com/2022/4/22/23036956/twitter-toolbox-apps-promote-safety-block-mute-accounts-platform",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/BnG9WCJSDvN5drVI3i6JTS-R1vM=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/10125279/acastro_180130_1777_0008.jpg",
+            "publishedAt": "2022-04-22T09:07:11Z",
+            "content": "In new test for select users\r\nIllustration by Alex Castro / The Verge\r\nTwitter has launched a new limited experiment that will see it promote developers third-party safety tools natively on its servi… [+2362 chars]"
+          },
+          {
+            "source": {
+              "id": "wired",
+              "name": "Wired"
+            },
+            "author": "Lily Hay Newman",
+            "title": "Elon Musk's Twitter Buy Exposes a Privacy Minefield",
+            "description": "The social network's user data and more will soon be at the whims of the world's richest man. Who's worried?",
+            "url": "https://www.wired.com/story/elon-musk-twitter-privacy-anonymity/",
+            "urlToImage": "https://media.wired.com/photos/62673c9a3af1ff499f41909f/191:100/w_1280,c_limit/Elon-Musk-Privacy-Twitter-Security-974773044.jpg",
+            "publishedAt": "2022-04-26T19:54:55Z",
+            "content": "Elon Musk Secured an agreement on Monday to buy Twitter for about $44 billion and take the company private. In his initial comments about the move, Musk discussed a range of goals from making the alg… [+3497 chars]"
+          },
+          {
+            "source": {
+              "id": "the-verge",
+              "name": "The Verge"
+            },
+            "author": "Jon Porter",
+            "title": "Twitter explores letting two accounts co-author a tweet",
+            "description": "Twitter has confirmed it’s “exploring” a new feature that would allow a single tweet to be posted by two separate accounts. The tweet would carry both accounts’ names and profile pictures, and appear to both their followers.",
+            "url": "https://www.theverge.com/2022/4/1/23006050/twitter-co-author-tweets-experiment",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/iNfyVuVNiHtceSkMgJD4xDPdrh0=/0x89:1242x739/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23359946/FMaEEKZXEAAm8Nf.jpg",
+            "publishedAt": "2022-04-01T11:39:28Z",
+            "content": "An example of what a co-authored tweet could look (though, confusingly, in this example both accounts are the same). | Image: Alessandro Paluzzi / Twitter\r\n\n \n\n Twitter has confirmed it’s “exploring”… [+1545 chars]"
+          },
+          {
+            "source": {
+              "id": "the-verge",
+              "name": "The Verge"
+            },
+            "author": "Alex Heath",
+            "title": "Twitter CEO says board still evaluating Elon Musk takeover",
+            "description": "At an all-hands meeting with Twitter employees, CEO Parag Agrawal addressed Elon Musk’s offer to buy out shareholders and take complete financial control of the company.",
+            "url": "https://www.theverge.com/2022/4/14/23025903/twitter-ceo-board-elon-musk-takeover-still-evaluating",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/BU2CaLChQyKAmq3qI2W4tqc4BAc=/0x135:2040x1203/fit-in/1200x630/cdn.vox-cdn.com/assets/3531133/twitter-logo-stock-new-york-stock-exchange1_2040.jpg",
+            "publishedAt": "2022-04-14T21:31:39Z",
+            "content": "Agrawal told employees the company would make a decision in the best interests of our shareholders\r\nTwitter CEO Parag Agrawal said in an all-hands meeting with employees Thursday that the company was… [+865 chars]"
+          },
+          {
+            "source": {
+              "id": "the-verge",
+              "name": "The Verge"
+            },
+            "author": "Jacob Kastrenakes",
+            "title": "Twitter miscounted its daily users for three years straight",
+            "description": "Twitter said it had overcounted its monetizable daily active usage (mDAU) for three years, leading numbers to be inflated by nearly 2 million.",
+            "url": "https://www.theverge.com/2022/4/28/23046170/twitter-miscounted-daily-users-three-years-q1-2022-earnings",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/r7pFFuYUFnC_q8wzWQqvA5pT1DA=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22228563/vpavic_210111_4366_0237.jpg",
+            "publishedAt": "2022-04-28T12:44:06Z",
+            "content": "Photo by Vjeran Pavic / The Verge\r\n\n \n\n Twitter overstated the number of daily users on its service for three years straight, overcounting by up to 1.9 million users each quarter. The error was due t… [+2765 chars]"
+          },
+          {
+            "source": {
+              "id": "engadget",
+              "name": "Engadget"
+            },
+            "author": "Igor Bonifacic",
+            "title": "Twitter reverses change that turned embeds of deleted tweets into blank boxes",
+            "description": "Twitter has temporarily walked back a controversial change\r\n that made it difficult for people to preserve deleted tweets. On Wednesday, writer Kevin Marks pointed out\r\n that the company had recently tweaked its embedded javascript so that the text of deleted…",
+            "url": "https://www.engadget.com/twitter-reverts-deleted-tweet-embeds-decision-220147834.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-03/f0b17610-a3db-11ec-bef2-b9f91328061d",
+            "publishedAt": "2022-04-09T22:01:47Z",
+            "content": "Twitter has temporarily walked back a controversial change\r\n that made it difficult for people to preserve deleted tweets. On Wednesday, writer Kevin Marks pointed out\r\n that the company had recently… [+1400 chars]"
+          },
+          {
+            "source": {
+              "id": "engadget",
+              "name": "Engadget"
+            },
+            "author": "Karissa Bell",
+            "title": "Elon Musk is already at risk of violating a key provision of his deal with Twitter",
+            "description": "Elon Musk may have already broken a key provision of the deal he made with Twitter. One day after Twitter disclosed the terms of its deal with Musk, the Tesla CEO is already raising questions about his willingness to adhere to a non-disparagement clause.Accor…",
+            "url": "https://www.engadget.com/elon-musk-disparage-twitter-employees-224616582.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-04/a0c9d5a0-c62e-11ec-aadf-089d93be883b",
+            "publishedAt": "2022-04-27T22:46:16Z",
+            "content": "Elon Musk may have already broken a key provision of the deal he made with Twitter. One day after Twitter disclosed the terms of its deal with Musk, the Tesla CEO is already raising questions about h… [+2997 chars]"
+          },
+          {
+            "source": {
+              "id": "the-verge",
+              "name": "The Verge"
+            },
+            "author": "Elizabeth Lopatto",
+            "title": "Jack Dorsey says ‘Elon is the singular solution I trust’ for Twitter’s future",
+            "description": "“Twitter is the closest thing we have to a global consciousness”",
+            "url": "https://www.theverge.com/2022/4/25/23042172/jack-dorsey-elon-musk-twitter-lbo-radiohead",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/Ls47FszxaaVqlIWRsts0sWAYCls=/0x0:4993x2614/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23416493/1233272334.jpg",
+            "publishedAt": "2022-04-26T03:32:34Z",
+            "content": "Photo by MARCO BELLO/AFP via Getty Images\r\n\n \n\n You know what, I’m into it. Let’s go full, unkempt beard for this one. The Gen-Xers are online and they are posting Radiohead on main.\n\n\nhttps://t.co/j… [+2872 chars]"
+          },
+          {
+            "source": {
+              "id": null,
+              "name": "Gizmodo.com"
+            },
+            "author": "Lauren Leffer",
+            "title": "Elon Musk Is Officially Buying Twitter",
+            "description": "On Monday afternoon, Twitter announced that it has entered into a definitive agreement to be acquired by Elon Musk, for $54.20 per share in cash in a transaction valued at about $44 billion. This means that once the transaction is complete, Twitter will becom…",
+            "url": "https://gizmodo.com/elon-musk-is-officially-buying-twitter-1848837212",
+            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/5172def91716e24f108a3b2775cce23b.jpg",
+            "publishedAt": "2022-04-25T18:58:00Z",
+            "content": "On Monday afternoon Twitter announced that it has entered into a definitive agreement to be acquired by Elon Musk for $54.20 per share in cash in a transaction valued at about $44 billion. This means… [+5687 chars]"
+          },
+          {
+            "source": {
+              "id": "engadget",
+              "name": "Engadget"
+            },
+            "author": "Karissa Bell",
+            "title": "Jack Dorsey on Musk’s Twitter takeover: ‘Elon is the singular solution I trust’",
+            "description": "Twitter co-founder and Block Head Jack Dorsey has made it clear that Elon Musk has his support as the new owner of Twitter. In his first public comments since Twitter and Musk announced the $44 billion\r\n deal, Dorsey said that “Elon is the singular solution I…",
+            "url": "https://www.engadget.com/jack-dorsey-elon-musk-twitter-takeover-034408777.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-04/1020e570-c511-11ec-beff-5566b018ba44",
+            "publishedAt": "2022-04-26T03:44:08Z",
+            "content": "Twitter co-founder and Block Head Jack Dorsey has made it clear that Elon Musk has his support as the new owner of Twitter. In his first public comments since Twitter and Musk announced the $44 billi… [+1088 chars]"
+          }
+        ]
+      }
+    ],
+    "totalPages": 1
+  }

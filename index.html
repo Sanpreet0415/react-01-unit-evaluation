@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News Application</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+      transition: background-color 0.3s ease;
+    }
+
+    body.dark {
+      background-color: #333333;
+      color: #ffffff;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    nav ul li button {
+      background-color: transparent;
+      border: none;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+      padding: 10px 15px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    nav ul li button:hover {
+      background-color: #555;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    .search-form {
+      margin-bottom: 20px;
+    }
+
+    .search-form input[type="text"] {
+      width: calc(100% - 80px);
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .search-form button {
+      padding: 10px 15px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    .search-form button:hover {
+      background-color: #45a049;
+    }
+
+    .article {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+
+    .article h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .article p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .article img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+    }
+
+    .error-message {
+      color: red;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script src="https://www.unpkg.com/react@18.2.0/umd/react.development.js"></script>
+  <script src="https://www.unpkg.com/react-dom@18.2.0/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel">
+    // Navbar component
+    function Navbar({ onSelect, darkMode, toggleDarkMode }) {
+      return (
+        <nav className={darkMode ? 'dark' : ''}>
+          <ul>
+            <li><button onClick={() => onSelect('search')}>Search News</button></li>
+            <li><button onClick={() => onSelect('country')}>Country News</button></li>
+            <li><button onClick={toggleDarkMode}>Dark Mode</button></li>
+          </ul>
+        </nav>
+      );
+    }
+
+    // SearchNews component
+    function SearchNews({ darkMode }) {
+      const [searchTerm, setSearchTerm] = React.useState('');
+      const [articles, setArticles] = React.useState([]);
+      const [error, setError] = React.useState(null);
+
+      const fetchNews = async () => {
+        try {
+          const response = await axios.get(`https://dbioz2ek0e.execute-api.ap-south-1.amazonaws.com/mockapi/get-news?q=${searchTerm}`);
+          setArticles(response.data.data[0].articles);
+        } catch (error) {
+          setError('Error fetching news. Please try again later.');
+        }
+      };
+
+      const handleSubmit = (e) => {
+        e.preventDefault();
+        if (searchTerm.trim() !== '') {
+          fetchNews();
+        } else {
+          setError('Please enter a search term.');
+        }
+      };
+
+      return (
+        <div className={`container ${darkMode ? 'dark' : ''}`}>
+          <form className="search-form" onSubmit={handleSubmit}>
+            <input
+              type="text"
+              placeholder="Enter search term..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
+            <button type="submit">Search</button>
+          </form>
+          {error && <p className="error-message">{error}</p>}
+          <div>
+            {articles.map((article, index) => (
+              <div key={index} className="article">
+                <h2>{article.title}</h2>
+                <p>{article.description}</p>
+                <p>Author: {article.author}</p>
+                <p>Source: {article.source.name}</p>
+                <p>Published At: {article.publishedAt}</p>
+                {article.urlToImage && <img src={article.urlToImage} alt="Article" />}
+              </div>
+            ))}
+          </div>
+        </div>
+      );
+    }
+
+    // CountryNews component (placeholder)
+    function CountryNews({ darkMode }) {
+      // Implement logic to fetch and display country news
+      return (
+        <div className={`container ${darkMode ? 'dark' : ''}`}>
+          <p>Country News Component Placeholder</p>
+        </div>
+      );
+    }
+
+    // Main App component
+    function App() {
+      const [view, setView] = React.useState('search');
+      const [darkMode, setDarkMode] = React.useState(false);
+
+      const handleViewChange = (selectedView) => {
+        setView(selectedView);
+      };
+
+      const toggleDarkMode = () => {
+        setDarkMode(!darkMode);
+      };
+
+      return (
+        <div className={darkMode ? 'dark' : ''}>
+          <Navbar onSelect={handleViewChange} darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+          {view === 'search' && <SearchNews darkMode={darkMode} />}
+          {view === 'country' && <CountryNews darkMode={darkMode} />}
+        </div>
+      );
+    }
+
+    // Render the App component into the root element
+    ReactDOM.render(<App />, document.getElementById('root'));
+  </script>
+</body>
+</html>
